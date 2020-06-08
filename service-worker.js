@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/covid-19-status-board-react/precache-manifest.aeabb1003871063acfa08e1254e587c9.js"
+  "/covid-19-react/precache-manifest.71e1cefdb082f29e9ebf9a94f37c7558.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,13 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
+<<<<<<< HEAD
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/covid-19-status-board-react/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
+=======
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/covid-19-react/index.html"), {
+  
+  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
+>>>>>>> Updates
 });
