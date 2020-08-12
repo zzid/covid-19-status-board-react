@@ -7,11 +7,11 @@ body {
     flex-direction : column;
 }
 @media only screen and (max-width: 770px) {
-    .container {
-      margin: 0 10%;
-    }
-  
-    .image {
-      width: 100%;
-    }
+  .container {
+    margin: 0 10%;
   }
+  
+  .image {
+    width: 100%;
+  }
+}

@@ -5,10 +5,13 @@ import styles from './App.module.css';
 
 import { fetchData } from './api'; // index file is automactically added even if it's not specified
 
+import coronaImg from './images/image.png'
+
 class App extends React.Component{
     //constructor is not necessary
     state ={
         data :{},
+        country :'',
     }
     async componentDidMount(){ // async componenetDidMount() >> is special built in grammer
         /*
@@ -23,14 +26,23 @@ class App extends React.Component{
         // console.log(fetchedData)
         this.setState({data: fetchedData})
     }
+
+    handleCountryChange = async (country) =>{
+        const fetchedData = await fetchData(country);
+        this.setState({ data : fetchedData, country : country })
+        //fetch the data
+        //set the state
+    }
+
     render(){
-        const { data } = this.state; // this is better way
+        const { data, country } = this.state; // this is better way
         return(
             // don't have any interappearence
             <div className={ styles.container } > 
+                <img className={styles.image} src={coronaImg}></img>
                 <Cards data = { data }/>
-                <CountryPicker />
-                <Chart />
+                <CountryPicker handleCountryChange = {this.handleCountryChange}/>
+                <Chart data = { data } country = {country} />
             </div>
         )
     }
