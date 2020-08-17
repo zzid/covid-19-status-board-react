@@ -33,13 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-<<<<<<< HEAD
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/covid-19-status-board-react/index.html"), {
-  
-  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
-=======
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/covid-19-react/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
->>>>>>> Updates
 });
