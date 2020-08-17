@@ -17,10 +17,7 @@ export const fetchData = async (country)=>{ // export
         } } = await axios.get(changeableUrl); // get(url)
         // same name with above data >> auto 
         return {
-            confirmed,
-            recovered,
-            deaths,
-            lastUpdate
+            confirmed, recovered, deaths, lastUpdate
         };
 
     }catch(error){
