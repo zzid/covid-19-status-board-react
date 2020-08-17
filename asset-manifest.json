@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/covid-19-status-board-react/static/css/main.1960ab1b.chunk.css",
-    "main.js": "/covid-19-status-board-react/static/js/main.cbb7b3ef.chunk.js",
-    "main.js.map": "/covid-19-status-board-react/static/js/main.cbb7b3ef.chunk.js.map",
+    "main.css": "/covid-19-status-board-react/static/css/main.51730f81.chunk.css",
+    "main.js": "/covid-19-status-board-react/static/js/main.6633e2b2.chunk.js",
+    "main.js.map": "/covid-19-status-board-react/static/js/main.6633e2b2.chunk.js.map",
     "runtime-main.js": "/covid-19-status-board-react/static/js/runtime-main.0373e4e5.js",
     "runtime-main.js.map": "/covid-19-status-board-react/static/js/runtime-main.0373e4e5.js.map",
     "static/js/2.32d46363.chunk.js": "/covid-19-status-board-react/static/js/2.32d46363.chunk.js",
@@ -15,8 +15,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0373e4e5.js",
-    "static/js/2.32d46363.chunk.js",
-    "static/css/main.1960ab1b.chunk.css",
-    "static/js/main.cbb7b3ef.chunk.js"
+    "static/js/2.ce9fc82f.chunk.js",
+    "static/css/main.51730f81.chunk.css",
+    "static/js/main.6633e2b2.chunk.js"
   ]
 }
