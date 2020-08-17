@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/covid-19-status-board-react/precache-manifest.aeabb1003871063acfa08e1254e587c9.js"
+  "/covid-19-status-board-react/precache-manifest.5ed48fd0a24f761b652cb69bc491f067.js"
 );
 
 self.addEventListener('message', (event) => {
